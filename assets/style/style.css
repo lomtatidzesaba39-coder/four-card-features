@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --calculator: (63,180,200);
+    --supervisor:red;
+    --teambuilder:blue;
+    --karma:orange;
+}
+article{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px black;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 3%;
+    display: inline-block;
+    position: relative;
+}
+
+h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+p{
+    line-height: 1.5;
+}
+
+img{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 5%;
+}
+
+.calculator{
+    border-top: 4px solid var(--calculator);
+    top: 200px;
+    left: 110px;
+}
+
+.supervisor{
+    border-top: 4px solid var(--supervisor);
+    top: 50px;
+    left: 120px;
+}
+
+.teambuilder{
+    border-top: 4px solid var(--teambuilder);
+    top: 200px;
+    left: 130px;
+}
+
+.karma{
+    border-top: 4px solid var(--karma);
+    top: 350px;
+    left: -650px;
+}
